@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+            margin: 0px;
+            padding: 0px;
+        }
+        .h1{
+            background-color: blue;
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+    <script>
+        function sum(){
+            var number1=number(document.getElementById('n1').value);
+            var number2=number(document.getElementById('n2').value);
+            var sum=number1+number2
+            document.getElementById('ans').innerHTML="The sum of"+ number1 +"&" +number2+ "is"+ sum;
+        }
+    </script>
+</head>
+<body>
+    <h1 class="h1">BASIC PRACTICE</h1>
+    <table align="center">
+        <tr>
+            <td><input type="text" value="Enter Number 1" id="n1"></td>
+        </tr>
+         <tr>
+            <td><input type="text" value="Enter Number 2" id="n2"></td>
+        </tr>
+        <tr>
+            <td>
+                 <input type="button" value="Sum" onclick="sum()">
+                <input type="button" value="sub" onclick="sub()">
+            </td>
+         
+        </tr>
+        <h1><p id="ans"></p></h1>
+       
+    </table>
+    
+</body>
+</html>

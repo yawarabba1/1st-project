@@ -1,0 +1,27 @@
+table{
+    width: 100%;
+    border-collapse:collapse ;
+    text-align: center;
+}
+table tr{
+    height: 50px;
+}
+table tr td{
+    text-align: center;
+    vertical-align: middle;
+    
+}
+table td:hover{
+background-color: burlywood;
+color: aliceblue;
+}
+table tr:nth-child(even){
+    background-color: rgb(239, 178, 103);
+}
+table tr:nth-child(odd){
+    background-color: rgb(181, 180, 170);
+}
+table td td:hover{
+   height: 100px;
+   font-weight: bold;
+   background-color: chartreuse;

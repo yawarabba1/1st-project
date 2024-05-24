@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+
+}
+#header{
+    background-color: rgb(242, 101, 101);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+.cards{
+    width: 300px;
+    height: 350px;
+    border: 10px inset rgb(5, 42, 90);
+    display: inline-block;
+   
+}
+.car{
+    width: 300px;
+    height: 350px;
+    border: 10px inset rgb(5, 42, 90);
+    display: inline-block;
+    margin: 10px;
+
+}
