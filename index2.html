@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function calc() {
+            var n1=Number(document.getElementById('num1').value);
+            var n2=Number(document.getElementById('num2').value);
+            var opt=document.getElementById('option').value;
+
+        
+
+        if (opt == "add"){
+            sum = n1+n2
+            document.getElementById('answer').innerHTML="The Sum of" + n1 + "&" + n2 + "is" + sum;
+        }
+        if (opt == "sub"){
+            sub = n1-n2
+            document.getElementById('answer').innerHTML="The sub of" + n1 + "&" + n2 + "is" + sub;
+        }
+        if (opt == "mul"){
+            mul = n1*n2
+            document.getElementById('answer').innerHTML="The mul of" + n1 + "&" + n2 + "is" + mul;
+        }
+        if (opt == "div"){
+            div = n1/n2
+            document.getElementById('answer').innerHTML="The div of" + n1 + "&" + n2 + "is" + div;
+        }
+        if (opt == "pow"){
+            pow = n1**n2
+            document.getElementById('answer').innerHTML="The pow of" + n1 + "&" + n2 + "is" + pow;
+        }
+    }
+    </script>
+</head>
+<body>
+    <table align="center" cellpadding="5">
+        <tr>
+            <td><input type="number" placeholder="Enter Number 1" id="num1"></td>
+        </tr>
+        <tr>
+            <td><input type="number" placeholder="Enter Number 2" id="num2"></td>
+        </tr>
+        <tr>
+            <td>
+                <select  id="option">
+                    <option value="add">Addition</option>
+                    <option value="sub">Substraction</option>
+                    <option value="mul">Multiplication</option>
+                    <option value="div">Division</option>
+                    <option value="pow">Power</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="calculate" onclick="calc()"></td>
+        </tr>
+        <tr>
+            <td><p id="answer"></p></td>
+        </tr>
+    </table>
+</body>
+</html>

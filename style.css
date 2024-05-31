@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* Header */
+#head{
+    background: linear-gradient(to right, rgb(11, 24, 64) 50%, rgb(59, 164, 143) 50%);
+    height: 850px;
+    width: 100%;
+    /* position: absolute; */
+/* display: inline; */
+}
+.img{
+    display: flex;
+    flex-direction: row;
+}
+.img img{
+    /* margin: 20px; */
+    padding: 10px;
+}
+.img h1 {
+    margin-top:20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+width: 100%;
+}
+.nav-bar {
+margin-top: 50px;
+/* margin-left:30px; */
+}
+.nav-bar ul li {
+  
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    font-size: 25px;
+    font-family: monospace;
+   
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+ .span{
+    float: right;
+    /* left: 80%; */
+    padding-left: 470px;
+    color: white;
+    font-weight: bold;  
+    /* margin-top   : 0; */
+    
+}
+/* Home */
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.main-left{
+    margin-top: 200px;
+    width: 450px;
+  
+    margin-left: 100px;
+}
+.main-left h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-left p{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 20;
+padding: 10px;
+}
+.btn-1{ 
+width: 170px;
+height: 40px;
+margin: 20px;
+font-size: 20px;
+background-color: rgb(236, 95, 109);
+border: none;
+
+}
+.btn-1:hover{
+    border: 2px solid rgb(226, 93, 93);
+    color: rgb(229, 102, 102);
+    background-color: rgb(129, 148, 137);
+    transition: 1s;
+}
+.btn-2{ 
+    width: 170px;
+    height: 40px;
+    /* margin: 30px; */
+    font-size: 20px;
+    /* background-color: crimson; */
+    
+    }
+    .btn-2:hover{
+        border: 2px solid white;
+        color: white;
+        background-color: rgb(129, 148, 137);
+        transition: 1s;
+    }
+.main-right img{
+    margin-left: 100px;
+    height: 400px;
+    width: 500px;
+    margin-top: 160px;
+}
+
+
+/* about section css */
+
+
+.about-contain{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blanchedalmond; */
+}
+.left-cont{
+    margin-top: 70px;
+    margin-left: 50px;
+    
+}
+.left-cont img{
+    width: 450px;
+}
+.right-cont{
+    margin-left: 60px;
+    margin-top: 130px;
+    width: 600px;
+}
+.right-cont h1{
+        font-size: 35px;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right-cont p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.btns-1{ 
+    width: 190px;
+    height: 42px;
+    margin-top: 50px;
+    color:white;
+    font-size: 15px;
+    background-color: rgb(255, 65, 103);
+    border: 2px darkblue;
+}
+.btns-1:hover{
+    border: 1px solid red;
+    color: rgb(246, 73, 73);
+    background-color: rgb(255, 255, 255);
+    transition: 0.50s;
+}
+.btns-2{ 
+    width: 190px;
+    height: 42px;
+    margin-top: 50px;
+    font-size: 15px;
+    background-color: rgb(159, 149, 152);
+    margin-left: 10px;
+    color: white;
+    }
+    .btns-2:hover{
+        border: 1px solid rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        transition: 1s;
+    }
+
+    /* Gallery */
+
+    .gallery{
+margin-top: 70px;
+        height: 650px;
+        width: 100% ;
+       
+        background-color: rgb(59, 164, 143);
+        }
+    .gallery h1{
+        text-align: center;
+    text-decoration: underline;
+
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+     .cards-container{
+        
+         display: flex;
+         flex-wrap: wrap;
+         /* overflow: auto; */
+height: 500px;
+width: 1000px;
+
+       justify-content: space-evenly;
+          margin-left: 100px;
+         
+         
+           }  
+    .cards{
+    
+       
+        height: 100px;
+        width: 200px;
+       
+    margin: 17px;
+    padding: 10px;
+    text-align: center;    
+    }
+
+.cont h3{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: cursive;
+}
+
+/* <!-- main section --> */
+
+.gall img{
+    margin-top: 70px;
+    margin-left: 200px;
+height: 550px;
+}
+.para{
+    text-align: center;
+}
+.para h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+margin-top: 30px;
+}
+.para p{
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 19px;
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.freelance-ex{
+    display: flex;
+    flex-direction: row;
+    
+}
+.right-side img{
+    height: 400px;
+    margin-top: 160px;
+    left: 30%;
+
+}
+
+.left-side{
+height: 700px;
+width: 500px;
+margin: 40px;
+margin-left: 100px;
+}
+h1{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.imag img{
+    height: 50px;
+    width: 42px;
+    padding: 8px;
+
+}
+
+.imag{
+    background-color: rgb(4, 35, 25);
+    border-radius: 100px;
+    height: 66px;
+    padding: 15px;
+    width: 66px;
+margin-left:30px;
+
+}
+.active, .imag:hover{
+    background-color: rgb(59, 164, 143);
+}
+.free-cards{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: row;
+margin-top: 40px;
+}
+.cent{
+    text-align: left;
+margin-left: 40px;
+}
+.cent h2{
+font-size: 25px;
+color: deeppink;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom:0;
+}
+.cent h1{
+    margin-top:7px;
+}
+
+
+.test h1{
+    font-size: 40px;
+    font-family:fantasy;
+    letter-spacing: 4px;
+}
+
+.card-sec{
+
+    height: 250px;
+width: 840px;
+/* border: 2px solid rgb(213, 184, 184); */
+margin-left: 19%;
+box-shadow: 0px 0px 10px 7px rgb(224, 224, 224);
+margin-top: 70px;
+text-align: center;
+padding-top: 20px;
+
+}
+.card-sec h4{
+font-size: 30px;
+margin-top: 20px;
+font-family: sans-serif;
+
+}
+.card-sec p{
+font-size:20px;
+padding: 10px;
+margin-top: 20px;
+margin-left: 70px;
+margin-right: 70px;
+}
+.card-sec img{
+    margin-top: 15px;
+}
+
+
+/* Fo0ter */
+
+.footer{
+background-color: rgb(11, 22, 55);
+margin-top: 100px;
+height: 600px;
+color: white;
+}
+.foot-img{
+    display: flex;
+    flex-direction: row;
+padding-top: 70px;
+padding-left: 50px;
+}
+.hh1 h1{
+    /* padding: 10px; */
+    margin-top: 0;
+    font-size: 40px;
+}
+.imgs-footer img{
+    padding: 10px;
+    /* margin-left: 90%; */
+}
+.imgs-footer{
+    float: right;
+    margin-left: 53%;
+}
+.footer-container {
+height: 300px;
+width: 170px;
+
+display: flex;
+flex-direction: column;
+margin: 30px;
+
+}
+.main-footer{
+
+    display: flex;
+    flex-direction: row;
+}
+.footer-container h1{
+    font-size: 23px;
+   
+    margin-bottom: 10px;
+}
+.footer-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding-left: 20px;
+padding-top: 10px;
+
+}
+
+.footer-container2{
+    margin: 30px;
+    height: 300px;
+    width: 260px;
+    /* border: 1px solid black ; */
+    color: rgb(255, 255, 255);
+    justify-content: left;
+    font-size: 20px;
+    
+}
+.footer-container2 h1{
+    font-size: 25px;
+    margin-left: 0;
+   margin-right:558%;
+}
+.footer-container2 p{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+line-height: 25px;
+padding-top: 15px;
+}
+.footer-container3{
+height: 150px;
+width: 170px;
+border: 1px solid black;
+margin-left: 80px;
+}
+.footer-container3 h1 {
+    font-size: 25px;
+   
+}
+.footer-container3 p{
+    font-size: 17px;
+padding: 13px;
+font-weight: bold;
+font-family: sans-serif;
+line-height: 25px;
+}
+.footer-container4{
+    height: 150px;
+    width: 130px;
+    border: 1px solid black;
+    margin-left: 170px;
+    
+    
+}
+.footer-container4 h1{
+    font-size: 25px;
+margin-bottom: 20px;
+}
+.footer-container4 input{
+    height: 25px;
+    width: 220px;
+    background-color: rgb(161, 157, 152);
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+.footer-container4 button{
+    margin-top: 15px;
+}
+.last-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.item1{
+    font-size: 20px;
+    margin: 10px;
+    font-family: monospace;
+    /* padding: 10px; */
+
+}
+.item1 a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.last{
+text-align: center;
+font-size: 22px;
+margin: 23px;
+
+}
