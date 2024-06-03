@@ -1,0 +1,373 @@
+/* Navbar code start */
+.navbar{
+    background-color: #f5f5f5;
+    color:#333333;
+    text-decoration: none;
+    accent-color: #007bff;
+    
+}
+.container-fluid a{
+    background-color: #f5f5f5;
+    color:#333333;
+    text-decoration: none;
+    accent-color: #007bff;
+    transition: 0.7s;
+    
+    
+}
+marquee p{
+    background-color: #f5f5f5;
+    color:#333333;
+    transition: 0.7s;
+    accent-color: #007bff;
+    
+
+}
+marquee p:hover{
+    
+    background-color: #007bff;
+    color:#ffffff;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+.container-fluid a:hover{
+    background-color: #007bff;
+    color:#ffffff;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+h1{
+    background-color: #f5f5f5;
+    color:#333333;
+    transition: 0.7s;
+    margin-bottom: 0px;
+    accent-color: #007bff;
+}
+h1:hover{
+    background-color:#007bff;
+    color:#ffffff;
+    transition: 0.7s;
+}
+h4{
+    background-color:#f5f5f5;
+    color:#333333;
+    transition: 0.7s;
+    text-align: center;
+  
+    accent-color: #007bff;
+}
+h4:hover{
+    background-color:#007bff;
+    color:#ffffff;
+    transition: 0.7s;
+}
+.nav-item:hover{
+    background-color:#007bff;
+    color:#ffffff;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.btn{
+    background-color: #f5f5f5;
+    color: #333333;
+    accent-color: #007bff;
+}
+.btn:hover{
+    background-color: #007bff;
+    border-radius: 10px;
+    transition: 0.7s;
+    color: #ffffff;
+}
+/* Navbar code end */
+/* First swiper code start */
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* First swiper code end */
+
+
+.display-6{
+  text-decoration: underline #007bff;
+}
+
+
+footer{
+  background-color: #007bff;
+}
+
+.zoom {
+  padding: 20px;
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  width: 200%;
+  height: 400px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.04); /* (100% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.box {
+  transition: box-shadow .3s;
+  width: 50px;
+  height: 300px;
+  margin: 50px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+  
+}
+.box:hover {
+  box-shadow: 0 0 18px rgba(33,33,33,.2); 
+
+}
+/* Our Team Section
+--------------------------------*/
+#team {
+  background: #fff;
+  padding: 30px 0 0 0;
+}
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#team .member .pic {
+  overflow: hidden;
+  text-align: center;
+}
+
+#team .member .pic img {
+  max-width: 100%;
+}
+
+#team .member .details {
+  background: #007bff;
+  color: #fff;
+  padding: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+#team .member .social {
+  margin-top: 5px;
+}
+
+#team .member .social a {
+  color: #fff;
+}
+
+#team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+/* Contact Section
+--------------------------------*/
+#contact {
+  padding: 30px 0;
+}
+
+#contact .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contact .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #50d8af;
+}
+
+#contact .contact-info address,
+#contact .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#contact .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+}
+
+#contact .contact-info a {
+  color: #000;
+}
+
+#contact .contact-info a:hover {
+  color: #007bff;
+}
+
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+}
+
+#contact #google-map {
+  height: 290px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  #contact #google-map {
+    margin-top: 20px;
+  }
+}
+
+#contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #007bff;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+#contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #007bff;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+#contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #007bff;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+#contact .php-email-form input,
+#contact .php-email-form textarea {
+  padding: 10px 14px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+#contact .php-email-form input::focus,
+#contact .php-email-form textarea::focus {
+  background-color: #007bff;
+}
+
+#contact .php-email-form button[type=submit] {
+  background: #007bff;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+#contact .php-email-form button[type=submit]:hover {
+  background: #016ee2;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.star{
+    font-size: 15px;
+text-align: center;
+
+}
+ 
