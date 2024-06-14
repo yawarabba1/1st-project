@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+
+.create-account-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.create-account-btn:hover {
+    background-color: #36a420;
+}
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <form class="login-form">
+            <h2>Log into Facebook</h2>
+            <input type="text" placeholder="Email or Phone" class="input-field" autofocus id="username">
+            <input type="password" placeholder="Password" class="input-field">
+            <button type="submit" class="login-btn">Log In</button>
+            <div class="forgot-password"><a href="#">Forgot password?</a></div>
+            <hr>
+            <button type="button" class="create-account-btn">Create New Account</button>
+        </form>
+    </div>
+
+    <script>
+
+    var username = "admin";
+    var password = "suleman123";
+
+        do {
+             var my_name = prompt('Enter Username');
+            var my_pass = prompt('Enter Your password');
+
+         if (my_name !== username || my_pass !== password) {
+        alert('Incorrect username or password. Please try again.');
+        }
+        } while (my_name !== username || my_pass !== password);
+
+        document.write('Login Successful');
+
+    </script>
+</body>
+</html>

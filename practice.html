@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Changing Background Color</title>
+<style>
+    body {
+        transition: background-color 0.5s ease;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #colorInput {
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #333;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+    <input type="text" id="colorInput" placeholder="Enter color name">
+    <script>
+        const colorInput = document.getElementById('colorInput');
+
+        colorInput.addEventListener('input', function() {
+            document.body.style.backgroundColor = this.value;
+        });
+    </script>
+</body>
+</html>

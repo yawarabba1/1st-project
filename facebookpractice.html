@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .container {
+        background-color: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        width: 400px;
+    }
+    
+    .login-form h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    
+    .input-field {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 16px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    .login-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: #1877f2;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .login-btn:hover {
+        background-color: #166fe5;
+    }
+    
+    .forgot-password {
+        text-align: center;
+        margin-bottom: 16px;
+        margin-top: 5px;
+    }
+    
+    .create-account-btn {
+        width: 100%;
+        padding: 12px;
+        background-color: #42b72a;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .create-account-btn:hover {
+        background-color: #36a420;
+    }
+    
+    
+        </style>
+<body>
+    <div class="container" style="box-shadow: inset;">
+        <form class="login-form">
+            <h2>Log into Facebook</h2>
+            <input type="text" placeholder="Email or Phone" class="input-field" autofocus id="usernameInput">
+            <input type="password" placeholder="Password" class="input-field" id="passwordInput">
+            <button type="button" class="login-btn" onclick="validateCredentials()">Log In</button>
+            <div class="forgot-password"><a href="#">Forgot password?</a></div>
+            <hr>
+            <button type="button" class="create-account-btn">Create New Account</button>
+        </form>
+    </div>
+    
+    <script>
+        var username = "admin";
+        var password = "suleman123";
+    
+        function validateCredentials() {
+            var enteredUsername = document.getElementById('usernameInput').value;
+            var enteredPassword = document.getElementById('passwordInput').value;
+    
+            if (enteredUsername !== username || enteredPassword !== password) {
+                alert('Incorrect username or password. Please try again.');
+            }
+             else('Login Succesfull') 
+            {
+                window.location.href="practice.html";
+                // Redirect to another page or perform further actions after successful login
+            }
+        }
+    </script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
